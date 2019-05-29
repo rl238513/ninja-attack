@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ninja attack
 //
-//  Created by IMANOL MUNOZ on 5/13/19.
-//  Copyright © 2019 IMANOL MUNOZ. All rights reserved.
+//  Created by EDUARDO MENDOZA on 5/13/19.
+//  Copyright © 2019 EDUARDO MENDOZA. All rights reserved.
 //
 
 import UIKit

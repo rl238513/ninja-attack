@@ -15,6 +15,9 @@
 		C46F92D12289D20900861B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46F92CF2289D20900861B0E /* Main.storyboard */; };
 		C46F92D32289D21400861B0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46F92D22289D21400861B0E /* Assets.xcassets */; };
 		C46F92D62289D21400861B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46F92D42289D21400861B0E /* LaunchScreen.storyboard */; };
+		C4F6EB6A2289D5FF00480E47 /* pew.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4F6EB692289D5FF00480E47 /* pew.wav */; };
+		C4F6EB6C2289D60700480E47 /* gameMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4F6EB6B2289D60700480E47 /* gameMusic.mp3 */; };
+		C4F6EB6E2289D60C00480E47 /* VectorMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6EB6D2289D60C00480E47 /* VectorMath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		C46F92D22289D21400861B0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C46F92D52289D21400861B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C46F92D72289D21400861B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F6EB692289D5FF00480E47 /* pew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pew.wav; sourceTree = "<group>"; };
+		C4F6EB6B2289D60700480E47 /* gameMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameMusic.mp3; sourceTree = "<group>"; };
+		C4F6EB6D2289D60C00480E47 /* VectorMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorMath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 				C46F92D22289D21400861B0E /* Assets.xcassets */,
 				C46F92D42289D21400861B0E /* LaunchScreen.storyboard */,
 				C46F92D72289D21400861B0E /* Info.plist */,
+				C4F6EB692289D5FF00480E47 /* pew.wav */,
+				C4F6EB6B2289D60700480E47 /* gameMusic.mp3 */,
+				C4F6EB6D2289D60C00480E47 /* VectorMath.swift */,
 			);
 			path = "ninja attack";
 			sourceTree = "<group>";
@@ -134,6 +143,8 @@
 				C46F92D12289D20900861B0E /* Main.storyboard in Resources */,
 				C46F92C82289D20900861B0E /* GameScene.sks in Resources */,
 				C46F92D32289D21400861B0E /* Assets.xcassets in Resources */,
+				C4F6EB6A2289D5FF00480E47 /* pew.wav in Resources */,
+				C4F6EB6C2289D60700480E47 /* gameMusic.mp3 in Resources */,
 				C46F92D62289D21400861B0E /* LaunchScreen.storyboard in Resources */,
 				C46F92CA2289D20900861B0E /* Actions.sks in Resources */,
 			);
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F6EB6E2289D60C00480E47 /* VectorMath.swift in Sources */,
 				C46F92CC2289D20900861B0E /* GameScene.swift in Sources */,
 				C46F92CE2289D20900861B0E /* GameViewController.swift in Sources */,
 				C46F92C62289D20900861B0E /* AppDelegate.swift in Sources */,
